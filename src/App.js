@@ -1,64 +1,25 @@
-import logo from './logo.svg';
+
 import './App.css';
 import jsonData from './Untitled-1.json';
 import { useEffect, useState } from 'react';
+import FacilitiesReport from './FacilitiesDatagrid';
+import chulJson from './chul.json';
+import { countChulReportFieldsFacility,
+  countChulReportFieldsWard,
+  countFacilityMultiReport,
+  countFacilityReport } from './commonFunctions';
 
 function App() {
   const [data, setData] = useState(null);
-
-  function countFacilityOccurrencesAndProperties(facilities, keysToCount) {
-    const countsMap = new Map();
-  
-    for (const facility of facilities) {
-      const { county, sub_county, ward_name, ...propertyValues } = facility;
-      const key = `${county}-${sub_county}-${ward_name}`;
-  
-      if (!countsMap.has(key)) {
-        const initialCounts = {
-          county,
-          sub_county,
-          ward_name,
-          occurrences: {},
-        };
-  
-        for (const key of keysToCount) {
-          initialCounts.occurrences[key] = {};
-        }
-  
-        countsMap.set(key, initialCounts);
-      }
-  
-      const currentCounts = countsMap.get(key);
-  
-      for (const key of keysToCount) {
-        if (Array.isArray(facility[key])) {
-          for (const obj of facility[key]) {
-            const name = obj.name;
-            if (!currentCounts.occurrences[key][name]) {
-              currentCounts.occurrences[key][name] = 0;
-            }
-            currentCounts.occurrences[key][name]++;
-          }
-        } else {
-          const value = propertyValues[key];
-          if (!currentCounts.occurrences[key][value]) {
-            currentCounts.occurrences[key][value] = 0;
-          }
-          currentCounts.occurrences[key][value]++;
-        }
-      }
-    }
-  
-    return Array.from(countsMap.values());
-  }
-  
- 
+  const [chulData, setChulData] = useState(null); 
 
   useEffect(() => {
     setData(jsonData);
+    setChulData(chulJson);
   }, []);
 
-  const propertiesToCount = [
+  //data to filter from facility data
+  const facilityReportCount = [
   'number_of_beds',
   'number_of_inpatient_beds',
   'number_of_cots',
@@ -74,44 +35,44 @@ function App() {
   'keph_level',
   'regulatory_body_name'];
 
+  //Data to filter from chul data
+  const chulReportCount=[
+    'status_name',
+    'services',
+  ];
 
-  // Example keys and facilities data
-const keysToCount = ['facility_services', 'facility_infrastructure', 'facility_contacts', 'facility_humanresources'];
+  // data to filter from facilities 
+const FacilitySubcategoryCount = ['facility_services', 'facility_infrastructure', 'facility_contacts', 'facility_humanresources'];
 
-// Check if data is available before calling the countFacilityBedsCotsCasualty function
-const countsArray = data?.results ? countFacilityOccurrencesAndProperties(data.results,propertiesToCount) : [];
+// Extracting data from the facility data
+const facilityReportArray = data?.results ? countFacilityReport(data.results,facilityReportCount) : [];
 
-const countsArray2 = data?.results ?countFacilityOccurrencesAndProperties(data.results, keysToCount): [];
+const facilityMultireportArray = data?.results ? countFacilityMultiReport(data.results,FacilitySubcategoryCount) : [];
+
+const chulWardReportArray = data?.results ? countChulReportFieldsWard(chulData.results,chulReportCount) : [];
+
+const chulFacilityReportArray = data?.results ? countChulReportFieldsFacility(chulData.results,facilityReportCount) : [];
+
+
+
+console.log("Facility report Data",facilityReportArray);
+console.log("Facility services,infrstructure e.t.c report Data",facilityMultireportArray);
+console.log("CHUL report Ward level Data ",chulWardReportArray);
+console.log("CHUL report  CHUL level Data",chulFacilityReportArray);
+
+
+
+const columns = [];
+const rows =[];
 
 
 
 
-console.log(countsArray);
-console.log('results');
-console.log(countsArray2);
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        {/* Conditional rendering to check if data is available */}
-        {data && data.results && data.results[0] && (
-          <p>Name: {data.results[0].regulatory_status_name}</p>
-         
-        )}
-        
-       
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h3>Facility Reports All hierachies</h3>
+      <FacilitiesReport  rows={rows} columns={columns}/>
+      
     </div>
   );
 }

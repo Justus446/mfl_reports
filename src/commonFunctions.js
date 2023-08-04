@@ -57,7 +57,7 @@ export function countChulReportFieldsFacility(chuls, keysToCount) {
   
 
 //function to be used for facility(services,infrustructure,humanresource)
-export function countFacilityReportFieldsWard(data, keysToCount) {
+export function countFacilityMultiReport(data, keysToCount) {
     const countsMap = new Map();
   
     for (const facility of data) {
@@ -153,7 +153,7 @@ export function countChulReportFieldsWard(data, keysToCount) {
     return Array.from(countsMap.values());
   }
   // Function to be used for facility report
-export function countFascilityReportFieldsFacility(facilities,propertiesToCount)
+export function countFacilityReport(facilities,propertiesToCount)
 {
     const countsMap = new Map();
 
