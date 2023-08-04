@@ -1,0 +1,602 @@
+{
+    "results": [
+        {
+            "id": "c59c9556-7028-4f61-ae03-6727b0b8ad4d",
+            "status_name": "Fully-functional",
+            "facility_name": "KARSAN RAMJI HOSPITAL",
+            "facility_ward": null,
+            "facility_subcounty": null,
+            "facility_county": null,
+            "services": [],
+            "name": "Uwezo CHU",
+            "code": null,
+            "date_established": "2023-02-06",
+            "is_approved": null
+        },
+        {
+            "id": "fa466fee-6fa8-4e42-abbc-b2dc436cd34b",
+            "status_name": "Fully-functional",
+            "facility_name": "KARSAN RAMJI HOSPITAL",
+            "facility_ward": null,
+            "facility_subcounty": null,
+            "facility_county": null,
+            "services": [],
+            "name": "winners CHU",
+            "code": null,
+            "date_established": "2023-01-02",
+            "is_approved": null
+        },
+        {
+            "id": "f549d0bf-c5ec-41e8-93b1-578103cff7a7",
+            "status_name": "Fully-functional",
+            "facility_name": "Caucasian Nursing home",
+            "facility_ward": "Umoja II",
+            "facility_subcounty": "Embakasi West",
+            "facility_county": "Nairobi",
+            "services": [],
+            "name": "winners CHU",
+            "code": null,
+            "date_established": "2023-01-02",
+            "is_approved": null
+        },
+        {
+            "id": "bf70977a-a2d8-4d21-80ee-3ea449f51ed0",
+            "status_name": "Fully-functional",
+            "facility_name": "Equity afia",
+            "facility_ward": "Mowlem",
+            "facility_subcounty": "Embakasi West",
+            "facility_county": "Nairobi",
+            "services": [],
+            "name": "DR STRANGE C.U",
+            "code": null,
+            "date_established": "2023-05-05",
+            "is_approved": null
+        },
+        {
+            "id": "b8885ddb-cf18-470b-a6b7-41c3c6acd7a7",
+            "status_name": "Fully-functional",
+            "facility_name": "Equity afia",
+            "facility_ward": "Mowlem",
+            "facility_subcounty": "Embakasi West",
+            "facility_county": "Nairobi",
+            "services": [],
+            "name": "JUNSEN",
+            "code": null,
+            "date_established": "2022-05-05",
+            "is_approved": null
+        },
+        {
+            "id": "56d5e919-ca35-4792-9ef8-81be5e6c044a",
+            "status_name": "Fully-functional",
+            "facility_name": "RADIANT GROUP OF HOSPITALS-UMOJA",
+            "facility_ward": "Umoja II",
+            "facility_subcounty": "Embakasi West",
+            "facility_county": "Nairobi",
+            "services": [],
+            "name": "DR STRANGE C.U",
+            "code": null,
+            "date_established": "2023-05-05",
+            "is_approved": null
+        },
+        {
+            "id": "d898330c-7954-4849-9823-e20d013bd619",
+            "status_name": "Fully-functional",
+            "facility_name": "Anfac health center",
+            "facility_ward": "Kariobangi South",
+            "facility_subcounty": "Embakasi West",
+            "facility_county": "Nairobi",
+            "services": [
+                {
+                    "id": "e37c6ec1-d380-49bc-8291-eb5c247043cd",
+                    "name": "Deworming of children"
+                }
+            ],
+            "name": "Gift Community Health Unit",
+            "code": null,
+            "date_established": "2023-07-18",
+            "is_approved": null
+        },
+        {
+            "id": "098b6bb4-18eb-4416-b23a-bf43fda228b6",
+            "status_name": "Fully-functional",
+            "facility_name": "Equity afia",
+            "facility_ward": "Mowlem",
+            "facility_subcounty": "Embakasi West",
+            "facility_county": "Nairobi",
+            "services": [],
+            "name": "GOLD C.U",
+            "code": null,
+            "date_established": "2022-05-20",
+            "is_approved": null
+        },
+        {
+            "id": "94933d83-f675-4190-b407-555d42f97f9e",
+            "status_name": "Fully-functional",
+            "facility_name": "Anfac health center",
+            "facility_ward": "Kariobangi South",
+            "facility_subcounty": "Embakasi West",
+            "facility_county": "Nairobi",
+            "services": [],
+            "name": "Naivasha community unit",
+            "code": null,
+            "date_established": "2023-07-12",
+            "is_approved": null
+        },
+        {
+            "id": "6339b24b-9baa-4c7f-8657-dc81272dd74b",
+            "status_name": "Fully-functional",
+            "facility_name": "Athiriver Hospital",
+            "facility_ward": "Mowlem",
+            "facility_subcounty": "Embakasi West",
+            "facility_county": "Nairobi",
+            "services": [],
+            "name": "Athi CU",
+            "code": 711912,
+            "date_established": "2023-06-21",
+            "is_approved": true
+        },
+        {
+            "id": "60f3ccce-51fb-4b72-9b41-9ae0653aaa17",
+            "status_name": "semi-functional",
+            "facility_name": "lukenyapine hospital",
+            "facility_ward": "Kariobangi South",
+            "facility_subcounty": "Embakasi West",
+            "facility_county": "Nairobi",
+            "services": [],
+            "name": "Nai community unit",
+            "code": 711911,
+            "date_established": "2023-06-28",
+            "is_approved": true
+        },
+        {
+            "id": "dc07a853-220e-4aea-a781-8f1bf975aa46",
+            "status_name": "Fully-functional",
+            "facility_name": "Dr maina medical clinic",
+            "facility_ward": "Umoja II",
+            "facility_subcounty": "Embakasi West",
+            "facility_county": "Nairobi",
+            "services": [],
+            "name": "Pine health community unit",
+            "code": 711906,
+            "date_established": "2023-06-28",
+            "is_approved": true
+        },
+        {
+            "id": "807f927f-972d-4918-bfeb-8f42c9c3d237",
+            "status_name": "Fully-functional",
+            "facility_name": "Daystar Dispensary",
+            "facility_ward": "Kariobangi South",
+            "facility_subcounty": "Embakasi West",
+            "facility_county": "Nairobi",
+            "services": [],
+            "name": "Highway Community Health Unit",
+            "code": 711909,
+            "date_established": "2022-02-15",
+            "is_approved": true
+        },
+        {
+            "id": "0bd006b8-734a-4161-8049-36698a416515",
+            "status_name": "Fully-functional",
+            "facility_name": "Daystar Dispensary",
+            "facility_ward": "Kariobangi South",
+            "facility_subcounty": "Embakasi West",
+            "facility_county": "Nairobi",
+            "services": [],
+            "name": "Mikindoni Community Health Unit",
+            "code": 711908,
+            "date_established": "2022-10-28",
+            "is_approved": true
+        },
+        {
+            "id": "f9f4f487-bf37-4eb8-bb02-3e07a97c8bc6",
+            "status_name": "Fully-functional",
+            "facility_name": "Daystar Dispensary",
+            "facility_ward": "Kariobangi South",
+            "facility_subcounty": "Embakasi West",
+            "facility_county": "Nairobi",
+            "services": [],
+            "name": "Lukenya community unit",
+            "code": 711910,
+            "date_established": "2023-06-07",
+            "is_approved": true
+        },
+        {
+            "id": "c157f068-8b40-47df-8caa-abcf3795af48",
+            "status_name": "Fully-functional",
+            "facility_name": "Emba5 health centre",
+            "facility_ward": "Umoja I",
+            "facility_subcounty": "Embakasi West",
+            "facility_county": "Nairobi",
+            "services": [],
+            "name": "Emba 5A",
+            "code": 711907,
+            "date_established": "2023-02-15",
+            "is_approved": true
+        },
+        {
+            "id": "9419aa6c-7795-453c-8584-e6acc41d500a",
+            "status_name": "Fully-functional",
+            "facility_name": "Jojo Nursing Home",
+            "facility_ward": "Mountain View",
+            "facility_subcounty": "Westlands",
+            "facility_county": "Nairobi",
+            "services": [],
+            "name": "NOELEEN MAMAKE CLINIC",
+            "code": 711905,
+            "date_established": "2015-04-28",
+            "is_approved": true
+        },
+        {
+            "id": "9457312f-6a34-4303-b58b-b3d48d8d7433",
+            "status_name": "semi-functional",
+            "facility_name": "Test Facility - H7",
+            "facility_ward": "Kariobangi South",
+            "facility_subcounty": "Embakasi West",
+            "facility_county": "Nairobi",
+            "services": [],
+            "name": "Lukenya CU",
+            "code": 711904,
+            "date_established": "2023-06-27",
+            "is_approved": true
+        },
+        {
+            "id": "d29a8e00-a1f4-49a5-a5a3-ea0b7e04988e",
+            "status_name": "semi-functional",
+            "facility_name": "Reign Dental Services",
+            "facility_ward": "Nairobi South",
+            "facility_subcounty": "Starehe",
+            "facility_county": "Nairobi",
+            "services": [],
+            "name": "Budget",
+            "code": null,
+            "date_established": "2023-06-01",
+            "is_approved": false
+        },
+        {
+            "id": "5d452c2d-2c71-48a3-87cc-26670399a6e2",
+            "status_name": "Fully-functional",
+            "facility_name": "Lorugum sub-county Hospital",
+            "facility_ward": "Turkwel",
+            "facility_subcounty": "Loima",
+            "facility_county": "Turkana",
+            "services": [],
+            "name": "Umoja community",
+            "code": 711903,
+            "date_established": "2020-03-04",
+            "is_approved": true
+        },
+        {
+            "id": "49e0ca9a-d217-4196-bce9-bcdcc3e6c3c6",
+            "status_name": "Fully-functional",
+            "facility_name": "Pcea Kiburi Thumbi 11 Dispensary",
+            "facility_ward": "Ngewa",
+            "facility_subcounty": "Githunguri",
+            "facility_county": "Kiambu",
+            "services": [],
+            "name": "Nyamrerwa Commuity",
+            "code": 711902,
+            "date_established": "2020-02-01",
+            "is_approved": true
+        },
+        {
+            "id": "76db407e-fe1d-42d2-aea4-d953c16da869",
+            "status_name": "semi-functional",
+            "facility_name": "ndabibi facilty",
+            "facility_ward": "Kimumu",
+            "facility_subcounty": "Moiben",
+            "facility_county": "Uasin Gishu",
+            "services": [
+                {
+                    "id": "77e67b7d-7c2f-4324-8a1a-274afe213c67",
+                    "name": "Growth monitoring for children under 5 years."
+                },
+                {
+                    "id": "6157e0a6-7eb0-43a4-b92e-340733b33576",
+                    "name": "First Aid Services"
+                }
+            ],
+            "name": "Morris Chem",
+            "code": 711901,
+            "date_established": "2023-01-25",
+            "is_approved": true
+        },
+        {
+            "id": "4115c7b4-0e94-43ac-8a14-f49da1b81337",
+            "status_name": "semi-functional",
+            "facility_name": "ndabibi facilty",
+            "facility_ward": "Kimumu",
+            "facility_subcounty": "Moiben",
+            "facility_county": "Uasin Gishu",
+            "services": [],
+            "name": "Test CU Ward",
+            "code": 711900,
+            "date_established": "2023-06-08",
+            "is_approved": true
+        },
+        {
+            "id": "93756276-1b3d-4df2-a9fe-2e401cfd2ed6",
+            "status_name": "Fully-functional",
+            "facility_name": "Afya House Hospital",
+            "facility_ward": "Bomariba",
+            "facility_subcounty": "Bonchari",
+            "facility_county": "Kisii",
+            "services": [],
+            "name": "Kariandusi 2 test",
+            "code": 711899,
+            "date_established": "2023-05-30",
+            "is_approved": true
+        },
+        {
+            "id": "19503b41-8ddb-45a6-ae80-958722a2cae0",
+            "status_name": "semi-functional",
+            "facility_name": "69 Airport Clinic",
+            "facility_ward": "Umoja II",
+            "facility_subcounty": "Embakasi West",
+            "facility_county": "Nairobi",
+            "services": [],
+            "name": "Kariandusi (test)",
+            "code": 711898,
+            "date_established": "2023-01-02",
+            "is_approved": true
+        },
+        {
+            "id": "2fbaaa0e-5d68-4340-ba77-0959444e0b46",
+            "status_name": "Fully-functional",
+            "facility_name": "Facility Three",
+            "facility_ward": "Kabiro",
+            "facility_subcounty": "Dagoretti North",
+            "facility_county": "Nairobi",
+            "services": [],
+            "name": "T CHU",
+            "code": 711880,
+            "date_established": "2023-04-26",
+            "is_approved": true
+        },
+        {
+            "id": "5225a886-dd5b-43d3-8274-42810bb3e3b2",
+            "status_name": "Fully-functional",
+            "facility_name": "Lexa Group Health Center",
+            "facility_ward": "Kariobangi South",
+            "facility_subcounty": "Embakasi West",
+            "facility_county": "Nairobi",
+            "services": [],
+            "name": "Lexa CHU",
+            "code": 711877,
+            "date_established": "2023-04-26",
+            "is_approved": true
+        },
+        {
+            "id": "d1eac150-2239-4475-be69-dd6896113904",
+            "status_name": "Fully-functional",
+            "facility_name": "Lexa Group Health Center",
+            "facility_ward": "Kariobangi South",
+            "facility_subcounty": "Embakasi West",
+            "facility_county": "Nairobi",
+            "services": [],
+            "name": "Laxi mol CHU",
+            "code": 711876,
+            "date_established": "2023-04-26",
+            "is_approved": true
+        },
+        {
+            "id": "b616577d-dc5f-42fa-8661-281275c12877",
+            "status_name": "Fully-functional",
+            "facility_name": "Njuruta Dispensary",
+            "facility_ward": "Ruiru/Rwawera",
+            "facility_subcounty": "Buuri East",
+            "facility_county": "Meru",
+            "services": [
+                {
+                    "id": "9a802107-0bc5-4a89-8109-ae7d2c19485e",
+                    "name": "Deworming of children"
+                },
+                {
+                    "id": "8c508369-199b-4153-a0e2-fae09e0756da",
+                    "name": "First Aid Services"
+                },
+                {
+                    "id": "6bf3903d-64ba-4388-aecf-76d9ab937941",
+                    "name": "FP: Family planning and child spacing education"
+                },
+                {
+                    "id": "8905ed57-6ad3-421b-8794-d4b5951da5c0",
+                    "name": "FP: Provision of basic family planning commodities"
+                },
+                {
+                    "id": "296c8316-edb1-4e9f-b4f2-054f48c812b4",
+                    "name": "Growth monitoring for children under 5 years."
+                },
+                {
+                    "id": "889aadd4-f961-47a0-a299-91e698bcfc35",
+                    "name": "HIV, TB and Malaria: Education, support for treatment adherence, and referral"
+                },
+                {
+                    "id": "d1b81a32-4f30-4995-822b-7bbb53d6e8c7",
+                    "name": "HIV, TB and Malaria: Provision of condoms"
+                },
+                {
+                    "id": "adfeb618-bc0e-4613-b243-28e9d7697033",
+                    "name": "HIV, TB and Malaria: Provision of home based care for PLWA"
+                },
+                {
+                    "id": "d31c7609-95d6-4f8c-b8cc-13b92bbf0608",
+                    "name": "HIV, TB and Malaria: Provision of psychosocial support groups"
+                },
+                {
+                    "id": "764dfdc3-2fd5-4ac5-b42c-a231b2fbf019",
+                    "name": "HIV, TB and Malaria: Treatment defaulter tracing"
+                },
+                {
+                    "id": "b7bd6cc6-47a2-4aa7-a405-a00965f98d4d",
+                    "name": "iCCM: Education on danger signs and referral for malaria, pneumonia and diarrhea"
+                },
+                {
+                    "id": "e7b922ba-23cc-4b28-9b33-4f5ce97af2c8",
+                    "name": "iCCM: Provision of AL drugs to treat malaria"
+                },
+                {
+                    "id": "d0d356e7-94ce-43ee-b4d7-a33e30547566",
+                    "name": "iCCM: Provision of antibiotics to treat pneumonia"
+                },
+                {
+                    "id": "01db9a20-6994-469a-8bad-15c1c4e01660",
+                    "name": "iCCM: Provision of Long Lasting Insecticide Treated Nets"
+                },
+                {
+                    "id": "4ff4bfae-56d3-4ecd-80fe-a75fa4991142",
+                    "name": "iCCM: Rapid diagnostic testing of malaria"
+                },
+                {
+                    "id": "25a6a0ee-b418-4ccc-ac94-e84b509ce5ad",
+                    "name": "Management of diarrhea, injuries, wounds, jiggers and other minor illnesses."
+                },
+                {
+                    "id": "84d4cc47-1dbd-4055-b252-4508b0b3c1a5",
+                    "name": "MNCH: Education, counseling of mothers, and referral for ANC"
+                },
+                {
+                    "id": "c06eacf1-d833-4476-88c3-012ec63cb243",
+                    "name": "NCD: Diabetes and hypertension screening and referral"
+                },
+                {
+                    "id": "535cb21a-e653-40c8-827d-ab0ed27e30f5",
+                    "name": "NCD: Education and support for treatment adherence"
+                },
+                {
+                    "id": "d539732d-d74b-44da-8b83-396648f0938b",
+                    "name": "Nutrition: Education, child growth monitoring, screening and referrals"
+                },
+                {
+                    "id": "2fbb600c-a3bf-419a-81f7-48d699971127",
+                    "name": "Provision of Information, Education & Communication (IEC) materials"
+                },
+                {
+                    "id": "ec965526-f257-4f99-b0e7-194fc7945de5",
+                    "name": "Referrals to health facilities"
+                },
+                {
+                    "id": "6f25679e-93c4-4d5e-9ad0-de5c22e4e021",
+                    "name": "WASH: Water, sanitation and hygiene education, including hand washing"
+                },
+                {
+                    "id": "edf70393-2187-461f-8272-22acb33edf8f",
+                    "name": "WASH: Water treatment provision"
+                }
+            ],
+            "name": "Njuruta Community Health Unit",
+            "code": 711875,
+            "date_established": "2022-01-01",
+            "is_approved": false
+        },
+        {
+            "id": "9a2b2b90-bed3-464c-a103-379cf1282e90",
+            "status_name": "Fully-functional",
+            "facility_name": "Ruiri Rural Health Demonstration Centre",
+            "facility_ward": "Ruiru/Rwawera",
+            "facility_subcounty": "Buuri East",
+            "facility_county": "Meru",
+            "services": [
+                {
+                    "id": "06419249-7bdb-4683-ae89-cfeab35c1e55",
+                    "name": "Deworming of children"
+                },
+                {
+                    "id": "89e3726f-3dfe-4ab6-886b-9c7a9daa67a8",
+                    "name": "First Aid Services"
+                },
+                {
+                    "id": "d2a7eb76-38d6-453c-a565-caebb3d6b3ce",
+                    "name": "FP: Family planning and child spacing education"
+                },
+                {
+                    "id": "77d2579c-1ec9-472e-8058-b042cd5824c6",
+                    "name": "FP: Provision of basic family planning commodities"
+                },
+                {
+                    "id": "1c4cfc89-d1ba-498d-b2e2-7b56271d084e",
+                    "name": "Growth monitoring for children under 5 years."
+                },
+                {
+                    "id": "60ac598a-1aa2-4eb2-9ff9-19d4436f71a1",
+                    "name": "HIV, TB and Malaria: Education, support for treatment adherence, and referral"
+                },
+                {
+                    "id": "898f6217-db44-4b33-af7a-c348e5e734c8",
+                    "name": "HIV, TB and Malaria: Provision of condoms"
+                },
+                {
+                    "id": "e921ac3f-3dcd-4b5f-90ef-070a8ad8d27f",
+                    "name": "HIV, TB and Malaria: Provision of home based care for PLWA"
+                },
+                {
+                    "id": "1a7275cc-da71-479d-b627-3f16c9733b40",
+                    "name": "HIV, TB and Malaria: Provision of psychosocial support groups"
+                },
+                {
+                    "id": "83924497-04b6-4138-a600-bbf3b3f279ee",
+                    "name": "HIV, TB and Malaria: Treatment defaulter tracing"
+                },
+                {
+                    "id": "2dfc727e-7cda-4311-a8c3-2318f3de83e9",
+                    "name": "iCCM: Education on danger signs and referral for malaria, pneumonia and diarrhea"
+                },
+                {
+                    "id": "835207a6-10dd-4279-a678-8136f0a96d5c",
+                    "name": "iCCM: Provision of AL drugs to treat malaria"
+                },
+                {
+                    "id": "f6a9abeb-1b10-4735-a7a3-7d68cfa3fc79",
+                    "name": "iCCM: Provision of antibiotics to treat pneumonia"
+                },
+                {
+                    "id": "86309157-0469-4f61-9fd6-3af58502fd18",
+                    "name": "iCCM: Provision of Long Lasting Insecticide Treated Nets"
+                },
+                {
+                    "id": "ae29231b-dd75-46ed-bd67-cf2486a9238e",
+                    "name": "iCCM: Rapid diagnostic testing of malaria"
+                },
+                {
+                    "id": "46b7122e-5d0a-439c-acbb-bfb5ca171dd1",
+                    "name": "Management of diarrhea, injuries, wounds, jiggers and other minor illnesses."
+                },
+                {
+                    "id": "477920aa-11f3-4466-9057-e1b85f00258c",
+                    "name": "MNCH: Education, counseling of mothers, and referral for ANC"
+                },
+                {
+                    "id": "3eae620e-6d07-4fa6-b015-e49f80727705",
+                    "name": "NCD: Diabetes and hypertension screening and referral"
+                },
+                {
+                    "id": "4a39a01c-3b5c-4f79-b1f2-abac5582cc98",
+                    "name": "NCD: Education and support for treatment adherence"
+                },
+                {
+                    "id": "c2e860ca-6f82-44a5-a205-0937e3e85876",
+                    "name": "Nutrition: Education, child growth monitoring, screening and referrals"
+                },
+                {
+                    "id": "9070a23a-7558-4ed8-a956-dae4f8d79566",
+                    "name": "Provision of Information, Education & Communication (IEC) materials"
+                },
+                {
+                    "id": "1ff2e05a-507d-427a-aa11-d9ff890e6a27",
+                    "name": "Referrals to health facilities"
+                },
+                {
+                    "id": "c128736d-4c86-4bd0-8231-88cc7cf17056",
+                    "name": "WASH: Water, sanitation and hygiene education, including hand washing"
+                },
+                {
+                    "id": "499d9fa5-e383-4cb5-9a82-ce75e0596740",
+                    "name": "WASH: Water treatment provision"
+                }
+            ],
+            "name": "Mugae Community Health Unit",
+            "code": 711874,
+            "date_established": "2022-06-18",
+            "is_approved": false
+        }
+    ]
+}
