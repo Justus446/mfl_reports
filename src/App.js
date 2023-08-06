@@ -29,20 +29,20 @@ function App() {
   'number_of_maternity_beds',
   'number_of_isolation_beds',
   'number_of_general_theatres',
-  'number_of_maternity_theatres',
-  'owner_type_name', 
-  'facility_type_name', 
-  'keph_level',
-  'regulatory_body_name'];
+  'number_of_maternity_theatres'
+];
 
   //Data to filter from chul data
   const chulReportCount=[
     'status_name',
     'services',
   ];
-
+const chulReportFacility=['facility_name']
   // data to filter from facilities 
-const FacilitySubcategoryCount = ['facility_services', 'facility_infrastructure', 'facility_contacts', 'facility_humanresources'];
+const FacilitySubcategoryCount = ['facility_services', 'facility_infrastructure', 'facility_contacts', 'facility_humanresources','owner_type_name', 
+'facility_type_name', 
+'keph_level',
+'regulatory_body_name'];
 
 // Extracting data from the facility data
 const facilityReportArray = data?.results ? countFacilityReport(data.results,facilityReportCount) : [];
@@ -51,7 +51,7 @@ const facilityMultireportArray = data?.results ? countFacilityMultiReport(data.r
 
 const chulWardReportArray = data?.results ? countChulReportFieldsWard(chulData.results,chulReportCount) : [];
 
-const chulFacilityReportArray = data?.results ? countChulReportFieldsFacility(chulData.results,facilityReportCount) : [];
+const chulFacilityReportArray = data?.results ? countChulReportFieldsFacility(chulData.results,chulReportFacility) : [];
 
 
 

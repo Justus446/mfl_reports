@@ -153,39 +153,32 @@ export function countChulReportFieldsWard(data, keysToCount) {
     return Array.from(countsMap.values());
   }
   // Function to be used for facility report
-export function countFacilityReport(facilities,propertiesToCount)
-{
-    const countsMap = new Map();
+export function countFacilityReport(facilities, propertiesToCount) {
+  const countsObject = {};
 
-    for (const facility of facilities) {
-      const { county, constituency, ward_name, ...propertyValues } = facility;
+  for (const facility of facilities) {
+      const { county, constituency, ward_name } = facility;
       const key = `${county}-${constituency}-${ward_name}`;
 
-      if (!countsMap.has(key)) {
-        const initialCounts = {
-          county,
-          constituency,
-          ward_name,
-          occurrences: {},
-        };
+      if (!countsObject[key]) {
+          countsObject[key] = {
+              county,
+              constituency,
+              ward_name,
+              occurrences: {},
+          };
 
-        for (const property of propertiesToCount) {
-          initialCounts.occurrences[property] = {};
-        }
-
-        countsMap.set(key, initialCounts);
+          for (const property of propertiesToCount) {
+              countsObject[key].occurrences[property] = 0;
+          }
       }
 
-      const currentCounts = countsMap.get(key);
+      const currentCounts = countsObject[key];
 
       for (const property of propertiesToCount) {
-        const propertyValue = propertyValues[property];
-        if (!currentCounts.occurrences[property][propertyValue]) {
-          currentCounts.occurrences[property][propertyValue] = 0;
-        }
-        currentCounts.occurrences[property][propertyValue]++;
+          currentCounts.occurrences[property] += facility[property];
       }
-    }
+  }
 
-    return Array.from(countsMap.values());
+  return Object.values(countsObject);
 }
