@@ -60,7 +60,14 @@ console.log("Facility services,infrstructure e.t.c report Data",facilityMultirep
 console.log("CHUL report Ward level Data ",chulWardReportArray);
 console.log("CHUL report  CHUL level Data",chulFacilityReportArray);
 
-
+// Extracting rows and columns from a nested object
+// {
+//   field: 'lastName',
+//   headerName: 'Last name',
+//   width: 150,
+//   editable: true,
+//   valueGetter: (params) => `${params.row.lastName?.y || ''}`,
+//   },
 
 const columns = [];
 const rows =[];
